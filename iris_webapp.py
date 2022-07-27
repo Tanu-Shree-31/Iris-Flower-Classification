@@ -3,7 +3,7 @@ import pickle
 
 lin_model=pickle.load(open('lin_model.pkl','rb'))
 log_model=pickle.load(open('log_model.pkl','rb'))
-knn_model=pickle.load(open('knn_model.pkl','rb'))
+#knn_model=pickle.load(open('knn_model.pkl','rb'))
 svm_model=pickle.load(open('svm_model.pkl','rb'))
 dec_model=pickle.load(open('dec_model.pkl','rb'))
 rand_model=pickle.load(open('rand_model.pkl','rb'))
